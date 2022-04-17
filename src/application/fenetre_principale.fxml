@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane prefHeight="433.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controlleur">
+	<children>
+      <Button layoutX="283.0" layoutY="373.0" mnemonicParsing="false" onAction="#fermer" text="Fermer" />
+      <ListView fx:id="lesDonnees" layoutX="21.0" layoutY="38.0" prefHeight="346.0" prefWidth="249.0" />
+      <Button layoutX="283.0" layoutY="38.0" mnemonicParsing="false" onAction="#remplir" text="Charger" />
+      <Button layoutX="283.0" layoutY="89.0" mnemonicParsing="false" onAction="#modifier" text="Modifier" />
+	</children>
+
+</AnchorPane>
